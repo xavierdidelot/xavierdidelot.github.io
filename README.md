@@ -4,7 +4,7 @@ I am a senior lecturer in the <a href="/medicine/dide">Department of Infectious 
 
 ---
 
-###Research interests
+### Research interests
 
 My research is focused on the analysis of genomic data in order to improve our understanding of bacterial evolution, epidemiology, ecology and pathogenicity. A key aim is to develop new bioinformatics and statistical methods that can handle the very large amounts of data made available by novel high-throughput sequencing techniques. 
 
@@ -37,15 +37,6 @@ I have developed the following computer software, all of which are freely availa
 * <a href="http://xavierdidelot.github.io/TransPhylo/">TransPhylo</a>: inference of a pathogen transmission tree given a phylogeny
 * <a href="https://github.com/ansariazim/treeBreaker" >TreeBreaker</a>: evolutionary inference of a phenotype distribution
 * <a href="https://github.com/xavierdidelot/ClonalFrameML">ClonalFrameML</a>: efficient inference of recombination in whole bacterial genomes
----
-### Research interests
-
-My research is focused on the analysis of genomic data in order to improve our understanding of bacterial evolution, epidemiology, ecology and pathogenicity. A key aim is to develop new bioinformatics and statistical methods that can handle the very large amounts of data made available by novel high-throughput sequencing techniques.
-
-Because of the interdisciplinary nature of my work, I have broad interests in a variety of subjects, including theoretical topics such as mathematical population genetics, Bayesian statistics or Monte-Carlo methods, and biological topics such as bacterial evolutionary processes or pathogen epidemiology.
-
-I have worked on a wide range of bacterial pathogens, especially those causing healthcare associated infections (eg Clostridium difficile and Staphylococcus aureus) and gastrointestinal infections (eg Salmonella enterica, Bacillus cereus, Campylobacter jejuni and Helicobacter pylori).
-
 ---
 
 ### Collaborations
