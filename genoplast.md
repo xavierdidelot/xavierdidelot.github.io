@@ -20,7 +20,7 @@ The paper describing the methods is also available: <a target="_blank" href="htt
 If you have a question or a problem that is not discussed in the user guide, please <a href="contact.htm">get in touch</a>.
 
 ---
-###Download
+### Download
 
 #### Version 1.0 (Novermber 2008): 
 
