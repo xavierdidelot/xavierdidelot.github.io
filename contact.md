@@ -1,3 +1,7 @@
+--
+layout: default
+--
+
 ### Contact Details
 
 School of Public Health<br />
