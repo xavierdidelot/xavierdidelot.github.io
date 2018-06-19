@@ -1,5 +1,11 @@
 ## ClonalFrame: inference of bacterial microevolution using multilocus sequence data
 
+### Important notice
+
+This webpage is about the original ClonalFrame released in 2007 and designed mostly to work on MLST data or small numbers of genomes. In 2015 a new separate software was released called ClonalFrameML which is designed to run on large whole genomes datasets. For more information about ClonalFrameML, see the separate <a href=https://github.com/xavierdidelot/ClonalFrameML>ClonalFrameML website</a>.
+
+---
+
 ### Introduction
 
 This is the homepage of ClonalFrame, a computer package for the inference of bacterial microevolution using multilocus sequence data. 
@@ -9,12 +15,6 @@ In a nutshell, ClonalFrame identifies the clonal relationships between the membe
 ClonalFrame can be applied to any kind of sequence data, from a single fragment of DNA to whole genomes. It is well suited for the analysis of <a target="_blank" href="http://pubmlst.org/">MLST data</a>, where 7 gene fragments have been sequenced, but becomes progressively more powerful as the sequenced regions increase in length and number up to <a target="_blank" href="http://www.genomesonline.org/">whole genomes</a>. However, it requires the sequences to be aligned. If you have genomic data that is not aligned, we recommend using <a target="_blank" href="http://gel.ahabs.wisc.edu/mauve/">Mauve</a> which produces alignment of whole bacterial genomes in exactly the format required for analysis with ClonalFrame. 
 
 The methods used in ClonalFrame are presented in the paper "Inference of bacterial microevolution using multilocus sequence data" by <a target="_blank" href="http://www.genetics.org/cgi/content/abstract/175/3/1251">Didelot and Falush (2007)</a>, which is the appropriate citation for this program. 
-
----
-### ClonalFrameML
-
-This webpage is about the original ClonalFrame released in 2007 and designed mostly to work on MLST data or small numbers of genomes. In 2015 a new separate software was released called ClonalFrameML which is designed to run on large whole genomes datasets. For more information about ClonalFrameML, see the <a href=https://github.com/xavierdidelot/ClonalFrameML>ClonalFrameML website</a>.
-
 
 ---
 ### Getting help
@@ -35,7 +35,6 @@ If you have a question or a problem that is not discussed in the user guide, ple
 * <a href="http://www.stats.ox.ac.uk/~didelot/files/ClonalFrame-1.2-Mac.zip">Click here</a> to download a precompiled binary for Mac.
 * <a href="http://www.stats.ox.ac.uk/~didelot/files/ClonalFrame-1.2-Lin.zip">Click here</a> to download a precompiled binary for Linux.
 * For the GUI of ClonalFrame, please download the Windows version 1.1 below. Please note that this GUI is no longer supported and was originally designed to work for Windows XP. Some users have reported that it could be made to work for Windows 7/8 using the procedure described <a href=http://windows.microsoft.com/en-GB/windows7/products/features/windows-xp-mode>here</a>. The Windows GUI can also be used on a Mac via <a href=http://www.winehq.org/>Wine</a> or the <a href=http://winebottler.kronenberg.org/>WineBottler</a>. 
-* Barry Hall has written a perl script called parseCF to interpret the output from ClonalFrame. This is available <a href=http://bellinghamresearchinstitute.com/software/index.html>here</a>.
 
 #### Version 1.1:
 
@@ -44,7 +43,7 @@ If you have a question or a problem that is not discussed in the user guide, ple
 * <a href="http://www.stats.ox.ac.uk/~didelot/files/clonalframewin.zip">Click here</a> to download ClonalFrame for Windows without the GUI. 
 * <a href="http://www.stats.ox.ac.uk/~didelot/files/clonalframelinux.zip">Click here</a> to download ClonalFrame for Linux without the GUI. 
 * <a href="http://www.stats.ox.ac.uk/~didelot/files/clonalframelinux64.zip">Click here</a> to download ClonalFrame for 64bit/Linux without the GUI.
-* <a href="http://www.stats.ox.ac.uk/~didelot/files/clonalframemac.zip">Click here</a> to download ClonalFrame for Mac. <br />
+* <a href="http://www.stats.ox.ac.uk/~didelot/files/clonalframemac.zip">Click here</a> to download ClonalFrame for Mac. 
 
 #### Version 1.0:
 
