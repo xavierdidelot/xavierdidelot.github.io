@@ -4,7 +4,7 @@
 
 Multi-locus sequence typing (<a target="_blank" href="http://en.wikipedia.org/wiki/MLST">MLST</a>) is a widely used method of characterization of bacterial isolates. It has been applied to over 50,000 isolates in over 50 different species and its results are freely available from the <a target="_blank" href="http://pubmlst.org/">pubMLST</a> website. This is the homepage of SimMLST, a coalescent method to jointly simulate MLST data and the clonal genealogy that gave rise to the sample. Such simulations are useful to make interpretations about real datasets.
 
---
+---
 ### Getting help
 
 Click here to download the <a href="http://www.stats.ox.ac.uk/~didelot/files/simmlst-userguide.pdf">SimMLST user guide in PDF format</a>.
@@ -15,7 +15,7 @@ A technical description of the algorithm implemented in SimMLST is available <a 
 
 If you have a question or a problem that is not discussed in the user guide, please <a href="contact.htm">get in touch</a>. 
 
---
+---
 ### Download
 
 SimMLST was implemented in C++ and Qt4 for the graphical user interface.
