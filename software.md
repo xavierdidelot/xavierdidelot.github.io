@@ -1,10 +1,5 @@
 ---
 title: Software
-layout: default
----
-
-## Software
-
 ---
 
 I have developed the following computer software, all of which are freely available on the internet: 

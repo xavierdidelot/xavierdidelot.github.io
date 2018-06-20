@@ -1,9 +1,7 @@
 ---
 title: Publications
-layout: default
 ---
 
-<h2 align="left">List of publications</h2><h3>
 <a name="2018"></a>2018</h3><ul>
 <li> X Didelot.  Computational Methods in Microbial Population Genomics In  M Polz and  O Rajora, editors, <i> Popul. Genomics Microorg.</i>,  Springer International Publishing, 2018.<br><a href="http://dx.doi.org/10.1007/13836_2017_3">Download</a>&nbsp;</li>
 <li> X Didelot,  N Croucher,  S Bentley,  S Harris, and  D Wilson.  Bayesian inference of ancestral dates on bacterial phylogenetic trees. <i> bioRxiv</i>, pp. 347385, 2018.<br><a href="http://dx.doi.org/10.1101/347385">Download</a>&nbsp;</li>

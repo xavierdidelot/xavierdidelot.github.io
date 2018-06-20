@@ -1,10 +1,5 @@
 ---
 title: Contact
-layout: default
----
-
-## Contact Details
-
 ---
 
 Xavier Didelot<br />

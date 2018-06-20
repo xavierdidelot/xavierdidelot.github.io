@@ -1,10 +1,5 @@
 ---
 title: Research
-layout: default
----
-
-## Research
-
 ---
 
 ### Research interests
@@ -14,8 +9,6 @@ My research is focused on the analysis of genomic data in order to improve our u
 Because of the interdisciplinary nature of my work, I have broad interests in a variety of subjects, including theoretical topics such as mathematical population genetics, Bayesian statistics or Monte-Carlo methods, and biological topics such as bacterial evolutionary processes or pathogen epidemiology.
 
 I have worked on a wide range of bacterial pathogens, especially those causing healthcare associated infections (eg <em>Clostridium difficile</em> and <em>Staphylococcus aureus</em>) and gastrointestinal infections (eg <em>Salmonella enterica</em>, <em>Bacillus cereus</em>, <em>Campylobacter jejuni</em> and <em>Helicobacter pylori</em>).
-
----
 
 ### Collaborations
 

@@ -1,17 +1,10 @@
 ---
 title: ClonalFrame
-layout: default
----
-
-## ClonalFrame: inference of bacterial microevolution using multilocus sequence data
-
 ---
 
 ### Important notice
 
 This webpage is about the original ClonalFrame released in 2007 and designed mostly to work on MLST data or small numbers of genomes. In 2015 a new separate software was released called ClonalFrameML which is designed to run on large whole genomes datasets. For more information about ClonalFrameML, see the separate <a href="https://github.com/xavierdidelot/ClonalFrameML">ClonalFrameML website</a>.
-
----
 
 ### Introduction
 
@@ -23,7 +16,6 @@ ClonalFrame can be applied to any kind of sequence data, from a single fragment 
 
 The methods used in ClonalFrame are presented in the paper "Inference of bacterial microevolution using multilocus sequence data" by <a href="http://www.genetics.org/cgi/content/abstract/175/3/1251">Didelot and Falush (2007)</a>, which is the appropriate citation for this program. 
 
----
 ### Getting help
 
 Click here to download the <a href="http://www.stats.ox.ac.uk/~didelot/files/clonalframe-userguide.pdf">ClonalFrame user guide in PDF format</a>. It is also included in each downloadable package.
@@ -32,7 +24,6 @@ The paper describing the methods is also available: <a href="http://www.genetics
 
 If you have a question or a problem that is not discussed in the user guide, please <a href="contact.htm">get in touch</a>. 
 
----
 ### Download
 
 #### Version 1.2 (current release): 
@@ -56,7 +47,6 @@ If you have a question or a problem that is not discussed in the user guide, ple
 
 * <a href="http://www.stats.ox.ac.uk/~didelot/files/clonalframeinstaller10.zip">Click here</a> to download ClonalFrame and GUI version 1.0 for Windows.
 
----
 ### xmfa2struct
 
 xmfa2struct is a program written in C which converts files in eXtended Multi-Fasta format (XMFA, the input format of ClonalFrame) into the input file format of <a href="http://pritch.bsd.uchicago.edu/structure.html">Structure</a>.
