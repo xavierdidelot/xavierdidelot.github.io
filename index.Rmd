@@ -1,8 +1,8 @@
 ---
 ---
-<img src="images/xavier.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/xavier.jpg" style="width:25%; border:0px solid; margin-right: 20px" align="left">
 
-## Welcome!
+## Welcome to my website!
 
 I am a senior lecturer in the <a href="/medicine/dide">Department of Infectious Disease Epidemiology</a> within the <a href="http://www1.imperial.ac.uk/publichealth/">School of Public Health</a> at Imperial College London. I am also a principal investigator of the <a href="http://www1.imperial.ac.uk/medicine/about/institutes/outbreaks/">MRC Centre for Outbreak Analysis and Modelling</a> and of the <a href="http://www1.imperial.ac.uk/hprumodelling/">NIHR Health Protection Research Unit in Modelling Methodology</a>.
 
