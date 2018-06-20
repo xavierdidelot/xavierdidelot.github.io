@@ -1,8 +1,11 @@
 ---
+title: ClonalFrame
 layout: default
 ---
 
 ## ClonalFrame: inference of bacterial microevolution using multilocus sequence data
+
+---
 
 ### Important notice
 

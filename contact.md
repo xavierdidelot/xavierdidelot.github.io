@@ -1,9 +1,13 @@
 ---
+title: Contact
 layout: default
 ---
 
-### Contact Details
+## Contact Details
 
+---
+
+Xavier Didelot<br />
 School of Public Health<br />
 Imperial College London<br />
 Norfolk Place<br />

@@ -1,8 +1,11 @@
 ---
+title: GenoPlast
 layout: default
 ---
 
 ## GenoPlast: Bayesian analysis of genome plasticity
+
+---
 
 ### Important notice
 

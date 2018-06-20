@@ -1,8 +1,11 @@
 ---
+title: SimMLST
 layout: default
 ---
 
 ## SimMLST: Simulation of MLST data under a neutral model
+
+---
 
 ### Important notice
 
