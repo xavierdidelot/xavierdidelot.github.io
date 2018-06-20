@@ -2,11 +2,11 @@
 title: Home
 ---
 
-### Welcome!
+## Welcome!
 
 I am a senior lecturer in the <a href="/medicine/dide">Department of Infectious Disease Epidemiology</a> within the <a href="http://www1.imperial.ac.uk/publichealth/">School of Public Health</a> at Imperial College London. I am also a principal investigator of the <a href="http://www1.imperial.ac.uk/medicine/about/institutes/outbreaks/">MRC Centre for Outbreak Analysis and Modelling</a> and of the <a href="http://www1.imperial.ac.uk/hprumodelling/">NIHR Health Protection Research Unit in Modelling Methodology</a>.
 
-### Research interests
+## Research interests
 
 My research is focused on the analysis of genomic data in order to improve our understanding of bacterial evolution, epidemiology, ecology and pathogenicity. A key aim is to develop new bioinformatics and statistical methods that can handle the very large amounts of data made available by novel high-throughput sequencing techniques. 
 

@@ -2,7 +2,7 @@
 title: Research
 ---
 
-### Research interests
+## Research interests
 
 My research is focused on the analysis of genomic data in order to improve our understanding of bacterial evolution, epidemiology, ecology and pathogenicity. A key aim is to develop new bioinformatics and statistical methods that can handle the very large amounts of data made available by novel high-throughput sequencing techniques. 
 
@@ -10,7 +10,7 @@ Because of the interdisciplinary nature of my work, I have broad interests in a 
 
 I have worked on a wide range of bacterial pathogens, especially those causing healthcare associated infections (eg <em>Clostridium difficile</em> and <em>Staphylococcus aureus</em>) and gastrointestinal infections (eg <em>Salmonella enterica</em>, <em>Bacillus cereus</em>, <em>Campylobacter jejuni</em> and <em>Helicobacter pylori</em>).
 
-### Collaborations
+## Collaborations
 
 I collaborate with the <a href="http://www.modmedmicro.ac.uk/" >Modernising Medical Microbiology consortium</a> which brings together the University of Oxford, Public Health England, the Sanger Institute and the NHS, with the aim of revolutionising our understanding of human pathogens through the use of whole-genome sequencing technology. Three major bacterial pathogens are under particular investigation: <em>Staphylococcus aureus</em>, <em>Clostridium difficile</em> and <em>Mycobacterium tuberculosis</em>.
 
