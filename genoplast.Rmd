@@ -1,6 +1,6 @@
 ---
-title: GenoPlast
 ---
+# GenoPlast
 
 ## Important notice
 

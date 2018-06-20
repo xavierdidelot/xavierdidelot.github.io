@@ -1,6 +1,6 @@
 ---
-title: SimMLST
 ---
+# SimMLST
 
 ## Important notice
 

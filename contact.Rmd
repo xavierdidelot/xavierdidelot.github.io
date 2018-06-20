@@ -1,6 +1,6 @@
 ---
-title: Contact
 ---
+# Contact details
 
 Xavier Didelot<br />
 School of Public Health<br />

@@ -1,6 +1,6 @@
 ---
-title: Bio
 ---
+# Biographical sketch
 
 * <strong>2012-present</strong>: University Lecturer, <a href="http://www1.imperial.ac.uk/publichealth/">School of Public Health</a>, Imperial College London
 * <strong>2010-2012</strong>: Leadership Fellow, <a href="http://www.stats.ox.ac.uk/">Department of Statistics</a>, University of Oxford
