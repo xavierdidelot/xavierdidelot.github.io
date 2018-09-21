@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://xavierdidelot.github.io/</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/index.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/research.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/software.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/pubs.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/bio.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/contact.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/clonalframe.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/genoplast.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/simmlst.html</loc>
+  <lastmod>2018-09-10T10:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/index.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/articles/TransPhylo.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/index.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/authors.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/simulateOutbreak.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/plotCTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/extractTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/plotTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/extractPTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/phyloFromPTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/ptreeFromPhylo.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/inferTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/consTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/TransPhylo.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/computeMatTDist.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/computeMatWIW.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/makeCtreeFromPTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/makeTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/plotTTree2.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/probPTreeGivenTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/probTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/probTTreeR.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://xavierdidelot.github.io/TransPhylo/reference/selectTTree.html</loc>
+  <lastmod>2018-09-04T08:27:28+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
