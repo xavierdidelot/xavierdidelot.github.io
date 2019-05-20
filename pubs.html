@@ -25,9 +25,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -75,9 +74,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -102,6 +99,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -116,7 +116,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -136,6 +135,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -157,18 +193,75 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -257,6 +350,16 @@ div.tocify {
 
 </style>
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
 <div class="col-xs-12 col-sm-4 col-md-3">
@@ -343,50 +446,79 @@ div.tocify {
 
 
 <h3>
+<a name="2019"></a>2019
+</h3>
+<ul>
+<li>
+X Didelot. Computational Methods in Microbial Population Genomics In M Polz and O Rajora, editors, <i> Popul. Genomics Microorg.</i>, pp. 3–29, Springer International Publishing, 2019.<br><a href="http://dx.doi.org/10.1007/13836_2017_3">Download</a> 
+</li>
+<li>
+A Criscuolo, S Issenhuth-jeanjean, X Didelot, K Thorell, J Hale, J Parkhill, N Thomson, D Falush, and S Brisse. The speciation and hybridization history of the genus Salmonella. <i> bioRxiv</i>, pp. 598235, 2019.<br><a href="http://dx.doi.org/10.1101/598235">Download</a> 
+</li>
+<li>
+K Dingle, X Didelot, T Quan, D Eyre, N Stoesser, C Marwick, J Coia, D Brown, S Buchanan, U Ijaz, C Goswami, G Douce, W Fawley, M Wilcox, T Peto, A Walker, and D Crook. A Role for Tetracycline Selection in Recent Evolution of Agriculture-Associated Clostridium difficile PCR Ribotype 078. <i> MBio</i>, 10(2):e02790–18, 2019.<br><a href="http://dx.doi.org/10.1128/mBio.02790-18">Download</a> 
+</li>
+<li>
+D Eyre, X Didelot, A Buckley, J Freeman, I Moura, D Crook, T Peto, A Walker, M Wilcox, and K Dingle. Clostridium difficile trehalose metabolism variants are common and not associated with adverse patient outcomes when variably present in the same lineage. <i> EBioMedicine</i>, pp. in press, Elsevier, 2019.<br><a href="http://dx.doi.org/10.1016/j.ebiom.2019.04.038">Download</a> 
+</li>
+<li>
+F Lassalle, P Veber, E Jauneikaite, and X Didelot. Automated reconstruction of all gene histories in large bacterial pangenome datasets and search for co-evolved gene modules with Pantagruel. <i> bioRxiv</i>, pp. 586495, 2019.<br><a href="https://www.biorxiv.org/content/10.1101/586495v2">Download</a> 
+</li>
+<li>
+A Moniri, J Rodriguez-Manzano, K Malpartida-Cardenas, L Yu, X Didelot, A Holmes, and P Georgiou. Framework for DNA Quantification and Outlier Detection Using Multidimensional Standard Curves. <i> Anal. Chem.</i>, pp. acs.analchem.9b01466, 2019.<br><a href="http://dx.doi.org/10.1021/acs.analchem.9b01466">Download</a> 
+</li>
+<li>
+L Whittles, P White, and X Didelot. A dynamic power-law sexual network model of gonorrhoea outbreaks. <i> PLOS Comput. Biol.</i>, 15(3):e1006748, 2019.<br><a href="http://dx.doi.org/10.1371/journal.pcbi.1006748">Download</a> 
+</li>
+<li>
+C Yang, Y Cui, X Didelot, R Yang, and D Falush. Why panmictic bacteria are rare. <i> bioRxiv</i>, pp. 385336, 2019.<br><a href="https://www.biorxiv.org/content/early/2018/08/05/385336">Download</a> 
+</li>
+<li>
+L van Dorp, Q Wang, L Shaw, M Acman, O Brynildsrud, V Eldholm, R Wang, H Gao, Y Yin, H Chen, C Ding, R Farrer, X Didelot, F Balloux, and H Wang. Rapid phenotypic evolution in multidrug-resistant Klebsiella pneumoniae hospital outbreak strains. <i> Microb. Genomics</i>, 5:10.1099/mgen.0.000263, 2019.<br><a href="http://dx.doi.org/10.1099/mgen.0.000263">Download</a> 
+</li>
+</ul>
+<h3>
 <a name="2018"></a>2018
 </h3>
 <ul>
 <li>
-X Didelot, N Croucher, S Bentley, S Harris, and D Wilson. Bayesian inference of ancestral dates on bacterial phylogenetic trees. <i> Nucleic Acids Res.</i>, pp. 10.1093/nar/gky783, sep 2018.<br><a href="http://dx.doi.org/10.1093/nar/gky783">Download</a> 
+X Didelot, N Croucher, S Bentley, S Harris, and D Wilson. Bayesian inference of ancestral dates on bacterial phylogenetic trees. <i> Nucleic Acids Res.</i>, 46:e134, 2018.<br><a href="http://dx.doi.org/10.1093/nar/gky783">Download</a> 
 </li>
 <li>
-X Didelot. Computational Methods in Microbial Population Genomics In M Polz and O Rajora, editors, <i> Popul. Genomics Microorg.</i>, Springer International Publishing, 2018.<br><a href="http://dx.doi.org/10.1007/13836_2017_3">Download</a> 
+F Campbell, X Didelot, R Fitzjohn, N Ferguson, A Cori, and T Jombart. Outbreaker2: a Modular Platform for Outbreak Reconstruction. <i> BMC Bioinformatics</i>, 19:363, 2018.<br><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2330-z">Download</a> 
 </li>
 <li>
 L Challagundla, X Luo, I Tickler, X Didelot, D Coleman, A Shore, G Coombs, D Sordelli, E Brown, R Skov, R Larsen, J Reyes, I Robledo, G Vazquez, R Rivera, P Fey, K Stevenson, S Wang, B Kreiswirth, J Mediavilla, C Arias, P Planet, R Nolan, F Tenover, R Goering, and D Robinson. Range Expansion and the Origin of USA300 North American Epidemic Methicillin-Resistant Staphylococcus aureus. <i> MBio</i>, 9(1):e02016–17, 2018.<br><a href="http://mbio.asm.org/content/9/1/e02016-17">Download</a> 
 </li>
 <li>
-C Collins and X Didelot. A phylogenetic method to perform genome-wide association studies in microbes that accounts for population structure and recombination. <i> PLoS Comput. Biol.</i>, 14(2):e1005958, 2018.<br><a href="http://dx.doi.org/10.1101/140798">Download</a> 
+C Collins and X Didelot. A phylogenetic method to perform genome-wide association studies in microbes that accounts for population structure and recombination. <i> PLOS Comput. Biol.</i>, 14(2):e1005958, feb 2018.<br><a href="http://dx.doi.org/10.1371/journal.pcbi.1005958">Download</a> 
 </li>
 <li>
-K Dingle, X Didelot, T Quan, D Eyre, N Stoesser, C Marwick, J Coia, D Brown, S Buchanan, U Ijaz, C Goswami, G Douce, W Fawley, M Wilcox, T Peto, A Walker, and D Crook. A role for tetracycline selection in the evolution of Clostridium difficile PCR-ribotype 078. <i> bioRxiv</i>, pp. 262352, Cold Spring Harbor Laboratory, feb 2018.<br><a href="http://dx.doi.org/10.1101/262352">Download</a> 
+G Méric, L Mageiros, J Pensar, M Laabei, K Yahara, B Pascoe, N Kittiwan, P Tadee, V Post, S Lamble, R Bowden, J Bray, M Morgenstern, K Jolley, M Maiden, E Feil, X Didelot, M Miragaia, H de Lencastre, T Moriarty, H Rohde, R Massey, D Mack, J Corander, and S Sheppard. Disease-associated genotypes of the commensal skin bacterium Staphylococcus epidermidis. <i> Nat. Commun.</i>, 9(1):5034, 2018.<br><a href="http://dx.doi.org/10.1038/s41467-018-07368-7">Download</a> 
+</li>
+<li>
+A Pandey, D Cleary, J Laver, A Gorringe, A Deasy, A Dale, P Morris, X Didelot, M Maiden, and R Read. Microevolution of Neisseria lactamica during nasopharyngeal colonisation induced by controlled human infection. <i> Nat. Commun.</i>, 9(1):4753, Springer US, 2018.<br><a href="http://dx.doi.org/10.1038/s41467-018-07235-5">Download</a> 
 </li>
 <li>
 J Peters, F Cresswell, L Amor, K Cole, G Dean, X Didelot, D De Silva, D Eyre, and J Paul. Whole genome sequencing of Neisseria gonorrhoeae reveals transmission clusters involving patients of mixed HIV serostatus. <i> Sex. Transm. Infect.</i>, 94:138–143, 2018.<br><a href="http://dx.doi.org/10.1136/sextrans-2017-053198">Download</a> 
 </li>
 <li>
-M Séraphin, X Didelot, D Nolan, J May, M Khan, E Murray, M Salemi, J Morris, and M Lauzardo. Genomic Investigation of a Mycobacterium tuberculosis Outbreak Involving Prison and Community Cases in Florida, United States. <i> Am. J. Trop. Med. Hyg.</i>, pp. –, 2018.<br><a href="http://dx.doi.org/https://doi.org/10.4269/ajtmh.17-0700">Download</a> 
+M Séraphin, X Didelot, D Nolan, J May, M Khan, E Murray, M Salemi, J Morris, and M Lauzardo. Genomic Investigation of a Mycobacterium tuberculosis Outbreak Involving Prison and Community Cases in Florida, United States. <i> Am. J. Trop. Med. Hyg.</i>, 99:867–874, 2018.<br><a href="http://dx.doi.org/https://doi.org/10.4269/ajtmh.17-0700">Download</a> 
 </li>
 <li>
-E Volz and X Didelot. Modeling the growth and decline of pathogen effective population size provides insight into epidemic dynamics and drivers of antimicrobial resistance. <i> Syst. Biol.</i>, 67(4):719–728, 2018.<br><a href="https://doi.org/10.1093/sysbio/syy007">Download</a> 
+E Volz and X Didelot. Modeling the Growth and Decline of Pathogen Effective Population Size Provides Insight into Epidemic Dynamics and Drivers of Antimicrobial Resistance. <i> Syst. Biol.</i>, 67(4):719–728, 2018.<br><a href="http://dx.doi.org/10.1093/sysbio/syy007">Download</a> 
 </li>
 <li>
 R Wang, L Van Dorp, L Shaw, P Bradley, Q Wang, X Wang, L Jin, Q Zhang, Y Liu, A Rieux, T Dorai-Schneiders, L Weinert, Z Iqbal, X Didelot, H Wang, and F Balloux. The global distribution and spread of the mobilized colistin resistance gene mcr-1. <i> Nat. Commun.</i>, 9(1):1179, 2018.<br><a href="http://dx.doi.org/10.1038/s41467-018-03205-z">Download</a> 
 </li>
 <li>
-L Whittles, P White, and X Didelot. A dynamic power-law sexual network model of gonorrhoea outbreaks. <i> bioRxiv</i>, pp. 322875, 2018.<br><a href="http://dx.doi.org/10.1101/322875">Download</a> 
+L Whittles, P White, J Paul, and X Didelot. Epidemiological Trends of Antibiotic Resistant Gonorrhea in the United Kingdom. <i> Antibiotics</i>, 7(3):60, 2018.<br><a href="http://dx.doi.org/10.3390/antibiotics7030060">Download</a> 
 </li>
 <li>
 L Whittles, X Didelot, Y Grad, and P White. Testing for gonorrhoea should routinely include the pharynx. <i> Lancet Infect. Dis.</i>, 18(7):716–717, 2018.<br><a href="http://dx.doi.org/10.1016/S1473-3099(18)30341-4">Download</a> 
 </li>
 <li>
-L Whittles, P White, J Paul, and X Didelot. Epidemiological Trends of Antibiotic Resistant Gonorrhea in the United Kingdom. <i> Antibiotics</i>, 7(3):60, 2018.<br><a href="http://dx.doi.org/10.3390/antibiotics7030060">Download</a> 
-</li>
-<li>
 K Yahara, S Nakayama, K Shimuta, K Lee, M Morita, T Kawahata, T Kuroki, Y Watanabe, H Ohya, M Yasuda, T Deguchi, X Didelot, and M Ohnishi. Genomic surveillance of Neisseria gonorrhoeae to investigate the distribution and evolution of antimicrobial-resistance determinants and lineages. <i> Microb. Genomics</i>, 4:10.1099/mgen.0.000205, 2018.<br><a href="http://dx.doi.org/10.1099/mgen.0.000205">Download</a> 
-</li>
-<li>
-C Yang, Y Cui, X Didelot, R Yang, and D Falush. Why panmictic bacteria are rare. <i> bioRxiv</i>, pp. 385336, 2018.<br><a href="https://www.biorxiv.org/content/early/2018/08/05/385336">Download</a> 
 </li>
 </ul>
 <h3>
@@ -394,16 +526,16 @@ C Yang, Y Cui, X Didelot, R Yang, and D Falush. Why panmictic bacteria are rare.
 </h3>
 <ul>
 <li>
-X Didelot, L Whittles, and I Hall. Model-based analysis of an outbreak of bubonic plague in Cairo in 1801. <i> J. R. Soc. Interface</i>, 14(131):20170160, jun 2017.<br><a href="http://dx.doi.org/10.1098/rsif.2017.0160">Download</a> 
+X Didelot, C Fraser, J Gardy, and C Colijn. Genomic infectious disease epidemiology in partially sampled and ongoing outbreaks. <i> Mol. Biol. Evol.</i>, 34:997–1007, 2017.<br><a href="http://dx.doi.org/10.1093/molbev/msw275">Download</a> 
 </li>
 <li>
-X Didelot, C Fraser, J Gardy, and C Colijn. Genomic infectious disease epidemiology in partially sampled and ongoing outbreaks. <i> Mol. Biol. Evol.</i>, 34:997–1007, 2017.<br><a href="http://dx.doi.org/10.1093/molbev/msw275">Download</a> 
+X Didelot, L Whittles, and I Hall. Model-based analysis of an outbreak of bubonic plague in Cairo in 1801. <i> J. R. Soc. Interface</i>, 14(131):20170160, jun 2017.<br><a href="http://dx.doi.org/10.1098/rsif.2017.0160">Download</a> 
 </li>
 <li>
 C Collins and X Didelot. Reconstructing the Ancestral Relationships Between Bacterial Pathogen Genomes. <i> Methods Mol. Biol.</i>, 1535:109–137, Clifton, N.J., 2017.<br><a href="http://dx.doi.org/10.1007/978-1-4939-6673-8_8">Download</a> 
 </li>
 <li>
-K Dingle, X Didelot, T Quan, D Eyre, N Stoesser, T Golubchik, R Harding, D Wilson, D Griffiths, A Vaughan, J Finney, D Wyllie, S Oakley, W Fawley, J Freeman, K Morris, J Martin, P Howard, S Gorbach, E Goldstein, D Citron, S Hopkins, R Hope, A Johnson, M Wilcox, T Peto, A Walker, and D Crook. Effects of control interventions on Clostridium difficile infection in England: an observational study. <i> Lancet Infect. Dis.</i>, 17:411–421, Elsevier, 2017.<br><a href="http://dx.doi.org/http://dx.doi.org/10.1016/S1473-3099(16)30514-X">Download</a> 
+K Dingle, X Didelot, T Quan, D Eyre, N Stoesser, T Golubchik, R Harding, D Wilson, D Griffiths, A Vaughan, J Finney, D Wyllie, S Oakley, W Fawley, J Freeman, K Morris, J Martin, P Howard, S Gorbach, E Goldstein, D Citron, S Hopkins, R Hope, A Johnson, M Wilcox, T Peto, A Walker, D Crook, C Del Ojo Elias, C Crichton, V Kostiou, A Giess, and J Davies. Effects of control interventions on Clostridium difficile infection in England: an observational study. <i> Lancet Infect. Dis.</i>, 17(4):411–421, Elsevier, apr 2017.<br><a href="http://dx.doi.org/10.1016/S1473-3099(16)30514-X">Download</a> 
 </li>
 <li>
 D Eyre, K Dingle, X Didelot, T Quan, T Peto, M Wilcox, A Walker, and D Crook. Clostridium difficile in England: can we stop washing our hands? – Authors’ reply. <i> Lancet Infect. Dis.</i>, 17(5):478–479, Elsevier, may 2017.<br><a href="http://dx.doi.org/10.1016/S1473-3099(17)30185-8">Download</a> 
@@ -447,10 +579,10 @@ S Yang, P Hemarajata, J Hindler, F Li, H Adisetiyo, G Aldrovandi, R Sebra, A Kas
 </h3>
 <ul>
 <li>
-X Didelot, J Dordel, L Whittles, C Collins, N Bilek, C Bishop, P White, D Aanensen, J Parkhill, S Bentley, B Spratt, and S Harris. Genomic Analysis and Comparison of Two Gonorrhea Outbreaks. <i> MBio</i>, 7(3):e00525–16, jul 2016.<br><a href="http://dx.doi.org/10.1128/mBio.00525-16">Download</a> 
+X Didelot, A Walker, T Peto, D Crook, and D Wilson. Within-host evolution of bacterial pathogens. <i> Nat. Rev. Microbiol.</i>, 14:150–162, 2016.<br><a href="http://dx.doi.org/10.1038/nrmicro.2015.13">Download</a> 
 </li>
 <li>
-X Didelot, A Walker, T Peto, D Crook, and D Wilson. Within-host evolution of bacterial pathogens. <i> Nat. Rev. Microbiol.</i>, 14:150–162, 2016.<br><a href="http://dx.doi.org/10.1038/nrmicro.2015.13">Download</a> 
+X Didelot, J Dordel, L Whittles, C Collins, N Bilek, C Bishop, P White, D Aanensen, J Parkhill, S Bentley, B Spratt, and S Harris. Genomic Analysis and Comparison of Two Gonorrhea Outbreaks. <i> MBio</i>, 7(3):e00525–16, jul 2016.<br><a href="http://dx.doi.org/10.1128/mBio.00525-16">Download</a> 
 </li>
 <li>
 X Didelot. Heroic sacrifice or tragic mistake? Revisiting the Eyam plague, 350 years on. <i> Significance</i>, 13(5):20–25, 2016.<br><a href="http://dx.doi.org/10.1111/j.1740-9713.2016.00961.x">Download</a> 
@@ -497,7 +629,7 @@ D De Silva, J Peters, K Cole, M Cole, F Cresswell, G Dean, J Dave, D Thomas, K F
 </h3>
 <ul>
 <li>
-X Didelot, B Pang, Z Zhou, A McCann, P Ni, D Li, M Achtman, and B Kan. The Role of China in the Global Spread of the Current Cholera Pandemic. <i> PLOS Genet.</i>, 11:e1005072, 2015.<br><a href="http://dx.doi.org/10.1371/journal.pgen.1005072">Download</a> 
+X Didelot, B Pang, Z Zhou, A McCann, P Ni, D Li, M Achtman, and B Kan. The Role of China in the Global Spread of the Current Cholera Pandemic. <i> PLoS Genet.</i>, 11:e1005072, 2015.<br><a href="http://dx.doi.org/10.1371/journal.pgen.1005072">Download</a> 
 </li>
 <li>
 X Didelot and D Wilson. ClonalFrameML: Efficient Inference of Recombination in Whole Bacterial Genomes. <i> PLOS Comput. Biol.</i>, 11(2):e1004041, feb 2015.<br><a href="http://dx.doi.org/10.1371/journal.pcbi.1004041">Download</a> 
@@ -585,10 +717,10 @@ K Yahara, X Didelot, M Ansari, S Sheppard, and D Falush. Efficient inference of 
 </h3>
 <ul>
 <li>
-X Didelot, S Nell, I Yang, S Woltemate, S van der Merwe, and S Suerbaum. Genomic evolution and transmission of Helicobacter pylori in two South African families. <i> Proc Natl Acad Sci USA</i>, 110(34):13880–13885, 2013.<br><a href="http://dx.doi.org/10.1073/pnas.1304681110">Download</a> 
+X Didelot. Genomic analysis to improve the management of outbreaks of bacterial infection. <i> Expert Rev. Anti. Infect. Ther.</i>, 11(4):335–337, 2013.<br><a href="http://dx.doi.org/10.1586/eri.13.15">Download</a> 
 </li>
 <li>
-X Didelot. Genomic analysis to improve the management of outbreaks of bacterial infection. <i> Expert Rev. Anti. Infect. Ther.</i>, 11(4):335–337, 2013.<br><a href="http://dx.doi.org/10.1586/eri.13.15">Download</a> 
+X Didelot, S Nell, I Yang, S Woltemate, S van der Merwe, and S Suerbaum. Genomic evolution and transmission of Helicobacter pylori in two South African families. <i> Proc Natl Acad Sci USA</i>, 110(34):13880–13885, 2013.<br><a href="http://dx.doi.org/10.1073/pnas.1304681110">Download</a> 
 </li>
 <li>
 W Behrens, T Schweinitzer, J Bal, M Dorsch, A Bleich, F Kops, B Brenneke, X Didelot, S Suerbaum, and C Josenhans. Role of energy sensor TlpD of Helicobacter pylori in gerbil colonization and genome analyses after adaptation in the gerbil. <i> Infect. Immun.</i>, 81(10):3534–3551, 2013.<br><a href="http://dx.doi.org/10.1128/IAI.00750-13">Download</a> 
@@ -609,10 +741,10 @@ J Price, X Didelot, D Crook, M Llewelyn, and J Paul. Whole genome sequencing in 
 T Read, S Joseph, X Didelot, B Liang, L Patel, and D Dean. Comparative Analysis of Chlamydia psittaci Genomes Reveals the Recent Emergence of a Pathogenic Lineage with a Broad Host Range. <i> MBio</i>, 4(2):e00604–12, 2013.<br><a href="http://dx.doi.org/10.1128/mBio.00604-12">Download</a> 
 </li>
 <li>
-S Sheppard, X Didelot, G Meric, A Torralbo, K Jolley, D Kelly, S Bentley, M Maiden, J Parkhill, and D Falush. Genome-wide association study identifies vitamin B5 biosynthesis as a host specificity factor in Campylobacter. <i> Proc Natl Acad Sci USA</i>, 110(29):11923–7, 2013.<br><a href="http://dx.doi.org/10.5061/dryad.28n35.">Download</a> 
+S Sheppard, X Didelot, K Jolley, A Darling, B Pascoe, G Meric, D Kelly, A Cody, F Colles, N Strachan, I Ogden, K Forbes, N French, P Carter, W Miller, N McCarthy, R Owen, E Litrup, M Egholm, J Affourtit, S Bentley, J Parkhill, M Maiden, and D Falush. Progressive genome-wide introgression in agricultural Campylobacter coli. <i> Mol. Ecol.</i>, 22:1051–1064, 2013.<br><a href="http://dx.doi.org/10.1111/mec.12162">Download</a> 
 </li>
 <li>
-S Sheppard, X Didelot, K Jolley, A Darling, B Pascoe, G Meric, D Kelly, A Cody, F Colles, N Strachan, I Ogden, K Forbes, N French, P Carter, W Miller, N McCarthy, R Owen, E Litrup, M Egholm, J Affourtit, S Bentley, J Parkhill, M Maiden, and D Falush. Progressive genome-wide introgression in agricultural Campylobacter coli. <i> Mol. Ecol.</i>, 22:1051–1064, 2013.<br><a href="http://dx.doi.org/10.1111/mec.12162">Download</a> 
+S Sheppard, X Didelot, G Meric, A Torralbo, K Jolley, D Kelly, S Bentley, M Maiden, J Parkhill, and D Falush. Genome-wide association study identifies vitamin B5 biosynthesis as a host specificity factor in Campylobacter. <i> Proc Natl Acad Sci USA</i>, 110(29):11923–7, 2013.<br><a href="http://dx.doi.org/10.5061/dryad.28n35.">Download</a> 
 </li>
 <li>
 E de Muinck, K Lagesen, J Afset, X Didelot, K Rønningen, K Rudi, N Stenseth, and P Trosvik. Comparisons of infant Escherichia coli isolates link genomic profiles with adaptation to the ecological niche. <i> BMC Genomics</i>, 14:81, 2013.<br><a href="http://dx.doi.org/10.1186/1471-2164-14-81">Download</a> 
@@ -623,13 +755,13 @@ E de Muinck, K Lagesen, J Afset, X Didelot, K Rønningen, K Rudi, N Stenseth, an
 </h3>
 <ul>
 <li>
+X Didelot, G Méric, D Falush, and A Darling. Impact of homologous and non-homologous recombination in the genomic evolution of Escherichia coli. <i> BMC Genomics</i>, 13(1):256, 2012.<br><a href="http://dx.doi.org/10.1186/1471-2164-13-256">Download</a> 
+</li>
+<li>
 X Didelot, R Bowden, D Wilson, T Peto, and D Crook. Transforming clinical microbiology with bacterial genome sequencing. <i> Nat. Rev. Genet.</i>, 13:601–612, 2012.<br><a href="http://dx.doi.org/10.1038/nrg3226">Download</a> 
 </li>
 <li>
 X Didelot, D Eyre, M Cule, C Ip, M Ansari, D Griffiths, A Vaughan, L O’Connor, T Golubchik, E Batty, P Piazza, D Wilson, R Bowden, P Donnelly, K Dingle, M Wilcox, A Walker, D Crook, T Peto, and R Harding. Microevolutionary analysis of Clostridium difficile genomes to investigate transmission. <i> Genome Biol.</i>, 13:R118, 2012.<br><a href="http://dx.doi.org/10.1186/gb-2012-13-12-r118">Download</a> 
-</li>
-<li>
-X Didelot, G Méric, D Falush, and A Darling. Impact of homologous and non-homologous recombination in the genomic evolution of Escherichia coli. <i> BMC Genomics</i>, 13(1):256, 2012.<br><a href="http://dx.doi.org/10.1186/1471-2164-13-256">Download</a> 
 </li>
 <li>
 M Achtman, J Wain, F Weill, S Nair, Z Zhou, V Sangal, M Krauland, J Hale, H Harbottle, A Uesbeck, G Dougan, L Harrison, S Brisse, and T S. enterica MLST study group. Multilocus Sequence Typing as a Replacement for Serotyping in Salmonella enterica. <i> PLoS Pathog.</i>, 8(6):e1002776, 2012.<br><a href="http://dx.doi.org/10.1371/journal.ppat.1002776">Download</a> 
@@ -690,10 +822,10 @@ R Laukkanen-Ninios, X Didelot, K Jolley, G Morelli, V Sangal, P Kristo, C Brehon
 </h3>
 <ul>
 <li>
-X Didelot and M Maiden. Impact of recombination on bacterial evolution. <i> Trends Microbiol.</i>, 18(7):315–322, 2010.<br><a href="http://dx.doi.org/10.1016/j.tim.2010.04.002">Download</a> 
+X Didelot, D Lawson, A Darling, and D Falush. Inference of homologous recombination in bacteria using whole-genome sequences. <i> Genetics</i>, 186(4):1435–49, 2010.<br><a href="http://dx.doi.org/10.1534/genetics.110.120121">Download</a> 
 </li>
 <li>
-X Didelot, D Lawson, A Darling, and D Falush. Inference of homologous recombination in bacteria using whole-genome sequences. <i> Genetics</i>, 186(4):1435–49, 2010.<br><a href="http://dx.doi.org/10.1534/genetics.110.120121">Download</a> 
+X Didelot and M Maiden. Impact of recombination on bacterial evolution. <i> Trends Microbiol.</i>, 18(7):315–322, 2010.<br><a href="http://dx.doi.org/10.1016/j.tim.2010.04.002">Download</a> 
 </li>
 <li>
 X Didelot. Sequence-based analysis of bacterial population structures In D Robinson, D Falush, and E Feil, editors, <i> Bact. Popul. Genet. Infect. Dis.</i>, pp. 37–60, John Wiley &amp; Sons, Inc., 2010.<br><a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470424745,subjectCd-MDD2.html">Download</a> 
@@ -710,16 +842,13 @@ V Sangal, H Harbottle, C Mazzoni, R Helmuth, B Guerra, X Didelot, B Paglietti, W
 </h3>
 <ul>
 <li>
-X Didelot, A Darling, and D Falush. Inferring genomic flux in bacteria. <i> Genome Res.</i>, 19(2):306–317, 2009.<br><a href="http://dx.doi.org/10.1101/gr.082263.108.clearly">Download</a> 
-</li>
-<li>
-X Didelot, D Lawson, and D Falush. SimMLST: simulation of multi-locus sequence typing data under a neutral model. <i> Bioinformatics</i>, 25(11):1442–4, 2009.<br><a href="http://dx.doi.org/10.1093/bioinformatics/btp145">Download</a> 
-</li>
-<li>
 X Didelot, M Barker, D Falush, and F Priest. Evolution of pathogenicity in the Bacillus cereus group. <i> Syst. Appl. Microbiol.</i>, 32(2):81–90, 2009.<br><a href="http://dx.doi.org/10.1016/j.syapm.2009.01.001">Download</a> 
 </li>
 <li>
 X Didelot, R Urwin, M Maiden, and D Falush. Genealogical typing of Neisseria meningitidis. <i> Microbiology</i>, 155:3176–86, 2009.<br><a href="http://dx.doi.org/10.1099/mic.0.031534-0">Download</a> 
+</li>
+<li>
+X Didelot, D Lawson, and D Falush. SimMLST: simulation of multi-locus sequence typing data under a neutral model. <i> Bioinformatics</i>, 25(11):1442–4, 2009.<br><a href="http://dx.doi.org/10.1093/bioinformatics/btp145">Download</a> 
 </li>
 <li>
 M Vos and X Didelot. A comparison of homologous recombination rates in bacteria and archaea. <i> ISME J.</i>, 3(2):199–208, 2009.<br><a href="http://dx.doi.org/10.1038/ismej.2008.93">Download</a> 
@@ -737,6 +866,9 @@ X Didelot and D Falush. Bacterial Recombination in vivo In M Hensel and H Schmid
 </li>
 <li>
 X Didelot, J Taylor, and J Watkins. A Duality Identity between a Model of Bacterial Recombination and the Wright-Fisher Diffusion. <i> Markov Process. Relat. Top.</i>, 4:315–324, 2008.<br><a href="http://dx.doi.org/10.1214/074921708000000453">Download</a> 
+</li>
+<li>
+X Didelot, A Darling, and D Falush. Inferring genomic flux in bacteria. <i> Genome Res.</i>, 19(2):306–317, dec 2008.<br><a href="http://dx.doi.org/10.1101/gr.082263.108">Download</a> 
 </li>
 <li>
 S Kulick, C Moccia, X Didelot, D Falush, C Kraft, and S Suerbaum. Mosaic DNA imports with interspersions of recipient sequence after natural transformation of Helicobacter pylori. <i> PLoS One</i>, 3(11):e3797, 2008.<br><a href="http://dx.doi.org/10.1371/journal.pone.0003797">Download</a> 
