@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -246,18 +246,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -347,7 +335,7 @@ $(document).ready(function () {
 
 
 <ul>
-<li><strong>2018-present</strong>: Professor of Statistical Epidemiology and Genomics, </br><a href="https://warwick.ac.uk/fac/sci/lifesci">School of Life Sciences</a> and <a href="https://warwick.ac.uk/fac/sci/statistics/">Department of Statistics</a>, University of Warwick</li>
+<li><strong>2018-present</strong>: Professor of Statistical Epidemiology and Genomics, <a href="https://warwick.ac.uk/fac/sci/lifesci">School of Life Sciences</a> and <a href="https://warwick.ac.uk/fac/sci/statistics/">Department of Statistics</a>, University of Warwick</li>
 <li><strong>2012-2018</strong>: University Lecturer, <a href="http://www1.imperial.ac.uk/publichealth/">School of Public Health</a>, Imperial College London</li>
 <li><strong>2010-2012</strong>: Leadership Fellow, <a href="http://www.stats.ox.ac.uk/">Department of Statistics</a>, University of Oxford</li>
 <li><strong>2007-2010</strong>: Research Fellow, <a href="http://www2.warwick.ac.uk/fac/sci/statistics/">Department of Statistics</a>, University of Warwick</li>
@@ -375,6 +363,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
